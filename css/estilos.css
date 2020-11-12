@@ -21,6 +21,10 @@
     float: left;
 }
 
+    .centro{
+        width: 2%;
+    }
+
     .izq{
         background-color: aqua;
         background:url("../img/img1.jpg") no-repeat;
@@ -28,22 +32,27 @@
     }
 
     .der{
+        top: 15%;
+        height: 70%;
         padding: 50px;
         box-sizing: border-box;
-        border: 2px solid gray;
+        border: 2px solid rgb(194, 192, 192);
+        border-radius: 20px;
     }
-        h1{
-            margin-top: 30px;
-            color: #384859;
-            text-align: center; 
-            font-family: 'Cedarville Cursive', cursive;
+        .insta{
+            width: 100%;
+            height: 60px;
+            background:url("../img/nombre.png") no-repeat;
+            background-size: cover;
+            background-size: 70%;
+            background-position: center;
         }
 
-        h5{
-            color: #384859;
-            margin: 20px 0px 10px 15px;
+        h2{
+            color: #4267B2;
             font-size: 15px;
             font-weight: lighter;
+            text-align: center;
         }
 
         input, button{
@@ -67,12 +76,17 @@
 
         button{
             text-align: center;
-            background: #384859;
+            background:  #405DE6;
             margin-top: 20px;
             color: #FFF;
             margin-bottom: 20px;
             cursor: pointer;
         }
+        button:hover {
+            color: rgba(255, 255, 255, 1) !important;
+            box-shadow: 0 4px 16px #405DE6;
+            transition: all 0.2s ease;
+          }
 
         hr{
             position: relative;
@@ -94,35 +108,31 @@
             margin-bottom: 10px;
         }
 
-        .contenedorimagen{
+        .contenedorfacebook{
             position: relative;
             float: left;
             width: 100%;
+            height: 35px;
             text-align: center;
         }
-            img{
-                width: 30px;
-                border: 1px solid rgba(0,0,0,.2) ;
-                border-radius: 5px;
-                padding: 7px;
+            .logo{
+                left: 40%;
+                position: relative;
+                height: 100%;
+                width: 20%;
+                background: url("../img/facebook.png") no-repeat;
+                background-size: cover;
+                background-size: 50%;
+                background-position: center;
             }
-
-                .lizq{
-                    margin-right: 5px;
-                }
-
-                .ider{
-                    margin-right: 5px;
-                }
 
                 a{
                     text-align: center;
-                    font-size: 10px;
-                    color: lightblue;
+                    color: black;
+                    font-size: 13px;
                     text-decoration: none;
                     width: 100%;
                     position: relative;
                     float: left;
                     margin-top: 10px;
                 }
-
